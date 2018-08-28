@@ -1,0 +1,41 @@
+body {
+	background-color: #D2D2D2;
+	font: 11px Verdana;
+	color: #696969;
+}
+
+#wrapper {
+	width:650px;
+	margin:30px auto;
+	background-color: #F4F4F4;
+}
+
+#Header {
+	height: 75px;
+	width: 650px;
+	background-image: url(../slike/redHeader.png);
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#new {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#button {
+	position: absolute;
+	left: 282px;
+	top: -14px;
+}
+
+#Content {
+	padding: 20px 30px;
+}
+
+#operator {
+	position: fixed;
+	left: 0;
+	top: 200px;
+}

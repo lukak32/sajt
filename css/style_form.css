@@ -1,0 +1,52 @@
+body {
+	font: 11px Verdana, sans-serif;
+	color: #333333;
+}
+
+.asd {
+	font-weight: bold;
+}
+
+#div {
+	width: 500px;
+}
+
+fieldset {
+	border: 1px solid #cccccc;
+	padding: 10px;
+	margin: 10px;
+}
+
+textarea {
+	border: 1px solid #cccccc;
+	padding: 10px;
+	margin: 10px;
+	width: 460px;
+}
+
+textarea:focus {
+	border: 3px solid #BE0D12;
+	background: none;
+}
+
+.tp {
+	margin-left: 10px;
+}
+
+.input {
+	background-image: url(../slike/inputbg.jpg);
+	height: 25px;
+}
+
+.input:focus {
+background: none;
+background-color: white;
+border: 3px solid #BE0D12;
+padding: 5px;
+font: 11px Verdana;
+}
+
+
+label {
+	cursor: pointer;
+}

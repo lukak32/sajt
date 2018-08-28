@@ -1,0 +1,64 @@
+
+body{background: white;
+}
+
+p {
+	letter-spacing: 3px;
+}
+
+.dfg{
+	font-style:italic;
+}
+
+.zxc{
+	font-weight: bold;
+	text-decoration: overline;
+}
+
+#header {
+	text-align: center;
+	text-transform: up;
+	width: 300px;
+	margin: auto auto;
+}
+
+p{
+	text-indent: 25px;
+}
+
+ul {
+	list-style-image: url(../slike/arrow.png);
+}
+
+table, th, td {
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+th {
+	background-color: #F8F8B1;
+}
+
+td {
+	background-color: #FFFFFF;
+	vertical-align: bottom;
+}
+
+th, td {
+	height: 30px;
+	padding: 5px;
+}
+
+table {
+	margin: 0 auto;
+}
+
+tr.tr1 td {
+	background-color: #3AE2CE;
+}
+
+#alarm {
+	float:right;
+	margin: 45px;
+}

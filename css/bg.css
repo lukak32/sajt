@@ -1,0 +1,32 @@
+#divn{
+	height: 421px;
+	width: 800px;
+	margin: 180px auto;
+	outline: 1px solid #000000;
+	background-image: url(../slike/bg_s.jpg);
+	background-repeat: repeat-x;
+}
+
+#divn h1 {
+	font-family: arial;
+	text-align: center;
+	outline: 1px solid #000000;
+	padding-top: 180px;
+	color: red;
+	background-image: url(../slike/logo.png);
+	background-repeat: no-repeat;
+	background-position: 170px 180px;
+}
+
+body {
+	background-image: url(../slike/2.png);
+	margin: 0px;
+}
+
+#wrapper {
+	outline: 1px solid #F9263E;
+	background-image: url(../slike/tel.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0px 200px;
+}

@@ -1,0 +1,43 @@
+#wrapper {
+	width:1000px;
+	outline: 1px solid #DBDBDB;
+	padding: 10px;
+	margin: auto;
+}
+
+#Header {
+	height: 200px;
+	background-color: #A0A0A0;
+}
+
+#SidebarL {
+	background-color: #DB8427;
+	width: 300px;
+	margin: 10px 10px 0 0;
+	float: left;
+}
+
+#SidebarR {
+	background-color: #DB8427;
+	width: 300px;
+	margin: 10px 0px 0 10px;
+	float: right;
+}
+
+
+#Content {
+	background-color: #6A52A0;
+	margin:10px auto 0 auto;
+	background-position: center;
+	width:380px;
+}
+
+#clear {
+	clear: both;
+}
+
+#Footer {
+	height: 200px;
+	background-color: #FFDD00;
+	margin-top: 10px;
+}

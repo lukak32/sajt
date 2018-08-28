@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Form</title>
+<link href="css/style_form.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div id="div">
+<fieldset>
+<legend>Personal information</legend>
+<form name="form1" action="formdata.php" method="GET">
+<p  class="asd"><label for="name">Enter name (max. 10 symbols):</label></p>
+<p><input type="text" class="input" id="name" name="name" size="30" maxlength="10"></p>
+<p class="asd"><label for="password">Enter password:</label></p>
+<p><input type="password" class="input" name="password" id="password" size="30"></p>
+</fieldset>
+<fieldset>
+<legend>Questionnaire</legend>
+<p class="asd">Do you like icecream?</p>
+<p><label>Yes<input type="radio" name="time" value="yes" checked></label> <label>No<input type="radio" name="time" value="no"</label><p>
+<p class="asd">What do you like to do</p>
+<p>
+<label>Play cards<input type="checkbox" name="pc"></label>
+<label>Go to gym<input type="checkbox" name="gg"></label>
+<label>Read a book<input type="checkbox" name="rb"></label>
+</p>
+<p class="asd">How much do you sleep per day?</p>
+<p>
+<select name="sleep" size="3" multiple>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option selected>8</option>
+<option>8+</option>
+</select>
+</fieldset>
+</p>
+</div>
+<p class="asd tp"><label for="text">Write us a message</label></p>
+<p><textarea name="text" id="text" cols="50" rows="10">Enter the text...</textarea></p>
+<p><input type="image" src="slike/ibutton.png" name="ibutton"></p>
+</form>
+</body>
+</html>
